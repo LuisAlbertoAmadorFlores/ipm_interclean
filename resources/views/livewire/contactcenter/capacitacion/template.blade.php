@@ -1,0 +1,18 @@
+@extends('layouts.app')
+@section('content')
+    <div class="d-flex justify-content-center align-items-center p-3 scrollbar entradaDerecha" style="height: 94vh">
+        <div class="rounded d-flex justify-content-center aling-items-center col-lg-11">
+            <div class="rounded mb-3 col-lg-12 degradado">
+                <div class="py-2 ps-2 rounded-top h5  encabezados">Nuevo Ingreso Capacitación</div>
+                <div class="row mx-0 degradado">
+                    <div class="">
+                        <div class="mb-2 pt-0  col-lg-12 rounded-bottom"
+                            style="background:#ffffff2c;height:80vh">
+                            @livewire('contactcenter.capacitacion.capacitacion-nuevos')
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
